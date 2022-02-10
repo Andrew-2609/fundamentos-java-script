@@ -13,3 +13,15 @@ const hiragana = '\u3041'
 // template string/literal
 const explicacao = `A letra "a" em japonês é escrita com o seguinte hiragana: ${hiragana}.`;
 console.log(explicacao);
+
+// comparando strings
+const cidadeLower = "belo horizonte";
+const cidadeNormal = "Belo Horizonte";
+
+const identico = cidadeLower === cidadeNormal; // false
+
+console.log(`As strings são idênticas? R: ${identico}`);
+
+const identicoToLower = cidadeLower === cidadeNormal.toLowerCase(); // true
+
+console.log(`As strings são idênticas agora? R: ${identicoToLower}`);

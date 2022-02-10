@@ -25,3 +25,9 @@ console.log(`As strings são idênticas? R: ${identico}`);
 const identicoToLower = cidadeLower === cidadeNormal.toLowerCase(); // true
 
 console.log(`As strings são idênticas agora? R: ${identicoToLower}`);
+
+// checando quantidade de caracteres de uma string
+
+const senha = "123456789pass";
+
+console.log(`Comprimento da senha: ${senha.length}`);

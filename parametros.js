@@ -10,3 +10,4 @@ function multiplicar(primeiroNumero = 1, segundoNumero = 1) {
 
 console.log(somar(5, 5));
 console.log(multiplicar(9));
+console.log(multiplicar(somar(1, 1), somar(3, 7)));

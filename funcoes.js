@@ -5,4 +5,10 @@ function imprimirTexto(texto) {
 
 // invoca a função
 imprimirTexto("こんにちは！");
-imprimirTexto("Hallo!")
+imprimirTexto("Hallo!");
+
+function somar(a, b) {
+    return a + b;
+}
+
+imprimirTexto(somar(3, 7));
